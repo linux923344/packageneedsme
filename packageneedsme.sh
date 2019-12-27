@@ -26,7 +26,7 @@ done
 echo
 echo "These installed packages use a very old EAPI. You can prepare a PR:"
 
-maxEAPI=${1:-5} # currently in 12/2018 EAPI 5 is deprecated
+maxEAPI=${1:-7} # currently in 12/2019 EAPI 7 is deprecated
 
 for EAPI in $(seq 0 $maxEAPI); do
 	echo 
